@@ -1,0 +1,151 @@
+
+/* css Globais*/
+
+h1{
+    font-size: 2.4em;
+    text-align: center;
+}
+
+.btn{
+    width: 150px;
+    padding: 0.9em;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    background-color:  violet;;
+}
+
+
+.icones{
+    text-align: center;
+}
+
+
+
+
+
+/* Cabecalho*/
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 2em;
+    border-bottom: solid 1px #000;
+
+}
+
+.cabecalho nav{
+    text-align: center;
+}
+
+
+.cabecalho nav ul li a {
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+/* Conteúdo Total*/
+
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: bisque;
+    padding: 10px;
+    height: 350px;
+    font-weight: bolder;
+    background-color: #0000000e;
+    
+}
+
+.bg-home{
+    background: url(../img/nuvens.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+ 
+
+/*Quem somos*/
+
+
+.quem-somos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1em;
+    height: 300px;
+}
+
+
+.referencias-sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1em;
+    height: 300px;
+}
+
+
+/* Serviço*/
+
+.servico{
+    padding: 1em;
+    text-align: center;
+}
+
+.servico p{
+    text-align: center;
+    margin-top: 1em;
+}
+
+
+
+    .nosso-servico-total .nosso-servico{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 1em;
+        height: 350px;
+        border-radius: 1em;
+        background-color: #ffffff;
+        
+    }
+
+
+
+/*Apresentacao time */
+
+.apresentacao-time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1em;
+    height: 300px;
+}
+
+.apresentacao-time h1{
+        font-size: 1.9em;
+}
+
+/* Nosso Time*/
+
+.time h2{
+    text-align: center;
+}
+
+.profissional{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    text-align: center;
+}
