@@ -102,6 +102,39 @@
     }
 
 
+    .apresentacao-time{
+        height: 500px;
+    }
+
+    .apresentacao-time div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 400px;
+        height: 98%;
+        align-self: flex-start;
+        color: #ffffff;
+    }
+
+    .apresentacao-time .btn{
+        align-self: center;
+    }
+    
+
+    /*Time*/
+
+    .time-total{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .profissional{
+        width: 350px;
+        background-color: #ffffff;
+        border-radius: 30px;
+    }
+
 
 
 

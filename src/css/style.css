@@ -34,7 +34,7 @@ h1{
     justify-content: space-between;
     background-color: #ffffff;
     padding: 2em;
-    border-bottom: solid 1px #000;
+    border-bottom: solid 1px #00000063;
 
 }
 
@@ -51,12 +51,13 @@ h1{
 /* Conteúdo Total*/
 
 
+
 .home{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    background-color: bisque;
+    color:  rgb(199, 144, 144);
     padding: 10px;
     height: 350px;
     font-weight: bolder;
@@ -65,9 +66,21 @@ h1{
 }
 
 .bg-home{
-    background: url(../img/nuvens.jpg) center center no-repeat;
+    background: url(../img/Seja-felizwebp.webp) center right no-repeat;
     background-size: cover;
 }
+
+.sb-bg{
+    background-color: rgba(0, 0, 0, 0.247);
+}
+
+
+.home h1{
+    color: whitesmoke;
+    font-weight: 900;
+    font-family: cursive;
+}
+
 
  
 
@@ -80,7 +93,12 @@ h1{
     align-items: center;
     justify-content: space-evenly;
     padding: 1em;
-    height: 300px;
+    height: 500px;
+}
+
+
+.referencias{
+    margin-top: 2em;
 }
 
 
@@ -123,29 +141,77 @@ h1{
 
 /*Apresentacao time */
 
-.apresentacao-time{
+.apresentacao-time {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     padding: 1em;
     height: 300px;
+    background: url(../img/Amanhecer.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.apresentacao-time div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 98%;
+    align-self: flex-start;
+    color: #ffffff;
+}
+
+.apresentacao-time h1, .apresentacao-time p{
+    color: #ffffff;
 }
 
 .apresentacao-time h1{
         font-size: 1.9em;
+      
 }
 
 /* Nosso Time*/
 
+
+
 .time h2{
     text-align: center;
+    margin-top: 2em;
 }
 
 .profissional{
     display: flex;
     flex-direction: column;
+    height: 400px;
     align-items: center;
+    justify-content: space-around;
     padding: 1em;
     text-align: center;
+    margin-top: 1em;
+}
+
+.profissional img{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+.btn-sap{
+    position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+
+footer{
+    margin-top: 2em;
+    background-color: rgba(0, 0, 0, 0.849);
+    padding: 15px;
+    text-align: center;
+}
+
+footer p{
+    color: white;
 }
