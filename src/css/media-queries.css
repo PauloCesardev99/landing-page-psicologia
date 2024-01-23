@@ -135,6 +135,17 @@
         border-radius: 30px;
     }
 
+    /* Contato*/
+
+    .contato{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contato article{
+        width: 50%;
+    }
+
 
 
 

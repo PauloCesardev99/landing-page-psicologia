@@ -197,6 +197,50 @@ h1{
     border-radius: 50%;
 }
 
+/* Contato*/
+
+.contato{
+    margin-top: 2em;
+}
+
+.contato article img{
+    display: block;
+    width: 100%;
+}
+
+.contato article:last-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.contato article:last-child form{
+    width: 100%;
+    margin-top: 1em;
+    padding: 2em;
+    border-radius: 1em;
+}
+
+.contato article:last-child form div{
+    margin-bottom: 1em;
+}
+
+input{
+    width: 100%;
+    padding: 1em;
+    margin-top: 5px;
+    border: solid 1px black;
+}
+
+textarea{
+    margin-top: 5px;
+}
+
+.contato .btn{
+    border: none;
+}
+
 
 .btn-sap{
     position: fixed;

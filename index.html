@@ -21,11 +21,11 @@
 
         <nav>
             <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">SOBRE NÓS</a></li>
-                <li><a href="#">SERVIÇO</a></li>
-                <li><a href="#">TIME</a></li>
-                <li><a href="#">CONTATO</a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#sobre-nos">SOBRE NÓS</a></li>
+                <li><a href="#servico">SERVIÇO</a></li>
+                <li><a href="#time">TIME</a></li>
+                <li><a href="#contato">CONTATO</a></li>
                
             </ul>
         </nav>
@@ -48,7 +48,7 @@
         </div>  
 
         <!----Quem somos-->
-        <section class="quem-somos-total">
+        <section class="quem-somos-total" id="sobre-nos">
 
                 <article class="quem-somos">
                     <h1>Video Aqui</h1>
@@ -113,7 +113,7 @@
 
         <!---Nosso Serviço-->
 
-        <section class="servico">
+        <section class="servico" id="servico">
             <h1>Nosso Serviços</h1>
 
             <div class="p-servico">
@@ -191,7 +191,7 @@
 
             </article>
             
-            <article class="time">
+            <article class="time" id="time">
 
                 <h2>Nosso Time</h2>
             <div class="time-total">
@@ -244,6 +244,49 @@
             </div>
 
             </article>
+
+        </section>
+
+
+        <section class="contato" id="contato">
+
+            <article>
+                <img src="src/img/psicologas/Psicologa.jpg" alt="Contato">
+            </article>
+
+            <article>
+                <h1>Mande nos uma mensagem</h1>
+                <form action="#" method="post">
+
+                    <div>
+                        <label for="nome">NOME:</label><br>
+                        <input type="text" name="nome" id="nome">
+                    </div>
+
+                    <div>
+                        <label for="email">EMAIL:</label><br>
+                        <input type="email" name="email" id="email">
+                    </div>
+
+                    <div>
+                        <label for="tel">TEL:</label><br>
+                        <input type="tel" name="tel" id="tel">
+                    </div>
+
+                    <div>
+                        <label for="">MENSAGEM:</label><br>
+                       <textarea name="text" id="text" style="width: 100%;" rows="10"></textarea>
+                    </div>
+
+                    <div>
+                       <input type="submit" value="ENVIAR" class="btn">
+                    </div>
+
+
+                </form>
+
+            </article>
+
 
         </section>
 
