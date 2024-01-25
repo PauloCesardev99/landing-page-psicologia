@@ -146,6 +146,10 @@
         width: 50%;
     }
 
+    .contato article:first-child{
+        width: 60%;
+    }
+
 
 
 

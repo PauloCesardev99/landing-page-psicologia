@@ -1,10 +1,16 @@
 
 /* css Globais*/
 
+html{
+    scroll-behavior: smooth;
+}
+
 h1{
     font-size: 2.4em;
     text-align: center;
 }
+
+
 
 .btn{
     width: 150px;
@@ -86,15 +92,27 @@ h1{
 
 /*Quem somos*/
 
+.quem-somos img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(245, 0, 200, 0.212);
+}
 
 .quem-somos{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    gap: 2em;
     padding: 1em;
-    height: 500px;
 }
+
+.quem-somos h2{
+    text-align: center;
+}
+
+
 
 
 .referencias{
@@ -156,10 +174,14 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 400px;
     height: 98%;
     align-self: flex-start;
     color: #ffffff;
+}
+
+.apresentacao-time div .btn{
+    width: 50%;
+    align-self: center;
 }
 
 .apresentacao-time h1, .apresentacao-time p{
@@ -173,6 +195,9 @@ h1{
 
 /* Nosso Time*/
 
+.time{
+    margin-top: 1em;
+}
 
 
 .time h2{
@@ -204,8 +229,8 @@ h1{
 }
 
 .contato article img{
-    display: block;
     width: 100%;
+    height: 100%;
 }
 
 .contato article:last-child{
@@ -226,6 +251,7 @@ h1{
     margin-bottom: 1em;
 }
 
+
 input{
     width: 100%;
     padding: 1em;
@@ -235,6 +261,7 @@ input{
 
 textarea{
     margin-top: 5px;
+    padding: 20px;
 }
 
 .contato .btn{
@@ -250,7 +277,6 @@ textarea{
 
 
 footer{
-    margin-top: 2em;
     background-color: rgba(0, 0, 0, 0.849);
     padding: 15px;
     text-align: center;
