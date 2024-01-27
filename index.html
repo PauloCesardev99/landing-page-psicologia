@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mente em Primeiro lugar</title>
+    <title>Centro Serenidade Mental</title>
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/media-queries.css">
@@ -16,10 +16,15 @@
     <header class="cabecalho">
 
         <div class="logo">
-            <img src="src/img/logo/cerebro.png" alt="mente-logo">
+            <img src="src/img/logo/coracao.png" alt="mente-logo">
         </div>
 
-        <nav>
+        <!---Menu Hamburger-->
+        <div class="menu">
+            <img src="src/img/icones/icons8-cardápio-100.png" alt="menu">
+        </div>
+
+        <nav class="nav">
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="#sobre-nos">SOBRE NÓS</a></li>
@@ -78,7 +83,7 @@
                 </div>
 
                 <div class="referencias-sobre">
-                    <h1>Individual Counsing</h1>
+                    <h1>Aconselhamento Individual</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet laborum, excepturi, aspernatur sapiente eos dolorem labore optio, doloremque voluptas nam rerum vero quia praesentium sed inventore ducimus eius omnis porro!</p>
                 </div>
 
@@ -91,7 +96,8 @@
                 </div>
 
                 <div class="referencias-sobre">
-                    <h1>Couple cousenling</h1>
+                    <h1>
+                        Aconselhamento de casal</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet laborum, excepturi, aspernatur sapiente eos dolorem labore optio, doloremque voluptas nam rerum vero quia praesentium sed inventore ducimus eius omnis porro!</p>
                 </div>
 
@@ -105,7 +111,7 @@
 
                 <div class="referencias-sobre">
 
-                    <h1>Referencia Teraphit</h1>
+                    <h1>Terapia Referencial</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet laborum, excepturi, aspernatur sapiente eos dolorem labore optio, doloremque voluptas nam rerum vero quia praesentium sed inventore ducimus eius omnis porro!</p>
                 </div>
 
@@ -259,30 +265,29 @@
 
             <article>
                 <h1>Mande nos uma mensagem</h1>
-                <form action="#" method="post" autocomplete="off">
+                <form action="" autocomplete="off" method="post" >
 
                     <div>
                         <label for="nome">NOME:</label><br>
-                        <input type="text" name="nome" id="nome" placeholder="Escreva seu nome *">
+                        <input type="text" name="nome" id="nome" placeholder="Escreva seu nome *" required>
                     </div>
 
                     <div>
                         <label for="email">EMAIL:</label><br>
-                        <input type="email" name="email" id="email" placeholder="Escreva seu email*">
+                        <input type="email" name="email" id="email" placeholder="Escreva seu email*" required>
                     </div>
 
                     <div>
                         <label for="tel">TEL:</label><br>
-                        <input type="tel" name="tel" id="tel" placeholder="Escreva seu telefone*">
-                    </div>
+                        <input type="tel" name="tel" id="tel" placeholder="Escreva seu telefone*" required> 
 
                     <div>
                         <label for="text">MENSAGEM:</label><br>
-                       <textarea name="text" id="text" style="width: 100%;" rows="10" placeholder="mande-nos uma mensagem*"></textarea>
+                       <textarea name="text" id="text" style="width: 100%;" rows="5" placeholder="Mande-nos uma mensagem*" required></textarea>
                     </div>
 
                     <div>
-                       <input type="submit" value="ENVIAR" class="btn">
+                       <input type="submit" value="ENVIAR" class="btn" id="botao-form">
                     </div>
 
 
@@ -305,5 +310,8 @@
       <footer>
         <p>Site Criado Por RiroSync Tecnologies by Paulo</p>
         </footer>
+
+
+        <script src="src/script/index.js"></script>
 </body>
 </html>
