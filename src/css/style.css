@@ -151,25 +151,35 @@ h1{
 
 .servico{
     padding: 1em;
+}
+
+.servico h2{
     text-align: center;
 }
 
-.servico p{
-    text-align: center;
+.p-servico p{
     margin-top: 1em;
+    text-align: center;
 }
+
+
 
 
 
     .nosso-servico-total .nosso-servico{
         display: flex;
         flex-direction: column;
+        align-items: center;
         justify-content: space-around;
         padding: 1em;
         height: 350px;
         border-radius: 1em;
         background-color: #ffffff;
         
+    }
+
+    .nosso-servico-total .nosso-servico div p{
+        align-self: flex-start;
     }
 
 
